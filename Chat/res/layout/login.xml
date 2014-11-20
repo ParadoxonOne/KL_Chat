@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="MyChat" 
+        android:textColor="#ffffff"
+        android:textSize="50sp"/>
+
+    <EditText
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textpw"
+        android:layout_alignLeft="@+id/textpw"
+        android:layout_toLeftOf="@+id/tvid"
+        android:background="@android:drawable/editbox_background_normal"
+        android:ems="10"
+        android:hint="nickname"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/b02"
+        android:layout_toRightOf="@+id/textpw"
+        android:text="id "
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/textpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:ems="10"
+        android:hint="password"
+        android:background="@android:drawable/editbox_background_normal" 
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/b02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b01"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/tvid"
+        android:layout_marginBottom="16dp"
+        android:textColor="#ffffff"
+        android:text="Beenden"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/b03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b02"
+        android:layout_alignRight="@+id/tvid"
+        android:text="Registrieren"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/b01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b02"
+        android:layout_toLeftOf="@+id/b03"
+        android:text="Verbinden"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

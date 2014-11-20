@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myChat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+    
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:icon ="@drawable/ic_launcher" android:label="test"
+        android:allowBackup="true">
+	    <activity android:name=".Registration" android:label="test"
+	    	       		  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+	    	       		  android:screenOrientation="portrait">
+		    <intent-filter>
+		        <action android:name="com.myfirstproject.mumbles.MAIN" />
+		        <category android:name="android.intent.category.DEFAULT" />
+		    </intent-filter>
+	    </activity>
+	    <activity android:name=".Options" android:label="test"
+	    	       		  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+	    	       		  android:screenOrientation="portrait">
+		    <intent-filter>
+		        <action android:name="com.myfirstproject.mumbles.MAIN" />
+		        <category android:name="android.intent.category.DEFAULT" />
+		    </intent-filter>
+	    </activity>
+	    <activity android:name=".Menu" android:label="test"
+	    	       		  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+	    	       		  android:screenOrientation="portrait">
+		    <intent-filter>
+		        <action android:name="com.myfirstproject.mumbles.MAIN" />
+		        <category android:name="android.intent.category.DEFAULT" />
+		    </intent-filter>
+	    </activity>
+	    <activity android:name=".LogInActivity" android:label="test"
+   	       		  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+   	       		  android:screenOrientation="portrait">
+		    <intent-filter>
+		        <action android:name="android.intent.action.MAIN" />
+		        <category android:name="android.intent.category.LAUNCHER" />
+		    </intent-filter>
+	    </activity>
+</application>
+</manifest>
+
+    
