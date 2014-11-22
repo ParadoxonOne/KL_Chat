@@ -1,7 +1,5 @@
 package com.myChat;
 
-import com.esotericsoftware.kryonet.*;
-
 
 public class PacketMessage 
 {
