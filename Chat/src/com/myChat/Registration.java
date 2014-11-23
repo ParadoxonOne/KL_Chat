@@ -35,7 +35,7 @@ public class Registration extends Activity{
 				try {
 					Check();
 				} catch (IOException e) {
-				}					//Aufruf der CHECK Methode				
+				}				
 				Intent intent = new Intent(Registration.this, LogInActivity.class);
 				intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);  
 				startActivity(intent);
@@ -61,7 +61,7 @@ public class Registration extends Activity{
 		        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder()
 		                .permitAll().build();
 		        StrictMode.setThreadPolicy(policy);
-		        //your codes here
+		        
 		        NetClient.client.connect(5000, "84.118.149.19", 1034, 1034);
 		    }
 		

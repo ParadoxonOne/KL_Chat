@@ -19,7 +19,7 @@ public class Menu extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.menu);
-		RelativeLayout a = (RelativeLayout)findViewById(R.id.menu);//Warning
+		RelativeLayout a = (RelativeLayout)findViewById(R.id.menu);
 		
 		bSearch  = 		(Button)   findViewById(R.id.bSearch);
 		bLogout  = 		(Button)   findViewById(R.id.bLogout);

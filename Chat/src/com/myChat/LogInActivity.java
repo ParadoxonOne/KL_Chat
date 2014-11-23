@@ -19,7 +19,8 @@ import android.widget.Toast;
 
 import com.esotericsoftware.kryonet.Connection;
 import com.esotericsoftware.kryonet.Listener;
-//commit
+
+
 public class LogInActivity extends Activity{
 	
 	Button b01, b02, b03;
